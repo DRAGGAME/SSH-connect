@@ -1,0 +1,13 @@
+name: ssh-connection
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.10.0
+  - pip>=21.0.1
+  - asyncssh
+  - python-dotenv
+
+prefix: c:/Users/schowm/anaconda3/envs/ssh-connection
